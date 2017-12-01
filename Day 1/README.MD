@@ -13,7 +13,7 @@ What is the solution to your captcha?
 
 Your puzzle answer was 1034."  
 
-This solution was relatively easy because I simply iterated through the string and checked if the same value was next to the other. The only inelegant part was the final character check. I may try and find a better way to handle that.
+**This solution was relatively easy because I simply iterated through the string and checked if the same value was next to the other. The only inelegant part was the final character check. I may try and find a better way to handle that.
 
 Part 2:  
 
@@ -31,4 +31,4 @@ What is the solution to your new captcha?
 
 Your puzzle answer was 1356."  
 
-This one I was able to do a bit more elegantly because I could rely on a ternary operator to do some calculations.
+**This one I was able to do a bit more elegantly because I could rely on a ternary operator to do some calculations.
