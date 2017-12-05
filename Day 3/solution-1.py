@@ -1,18 +1,32 @@
-r = 1
-b = 2
-e = 9
-d = 7
-s = 3
-for i in range(2,60):
- # Need to generate new range
- if i == e:
-   b = e + 1
-   d += 8
-   e = b + d
-   r += 1
-   s += 2
- # Perform actions
- else:
-   if i == 368078:
-     print r, "begining:",b , i-b, s
-     
+x = 0
+y = 0
+i = 1
+dist = 2
+target = 368078
+while 1 == 1:
+    for j in range(dist-1):
+        i += 1
+        x += 1
+        print i, x, y
+        if i == target:
+            exit()
+    for j in range(dist-1):
+        i += 1
+        y -= 1
+        print i, x, y
+        if i == target:
+            exit()
+    for j in range(dist):
+        i += 1
+        x -= 1
+        print i, x, y
+        if i == target:
+            exit()
+    for j in range(dist):
+        i += 1
+        y += 1
+        print i,  x, y
+        if i == target:
+            exit()
+
+    dist += 2
